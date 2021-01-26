@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+
+<!-- === Header Starts === -->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>MAIRL</title>
+
+  <link href="./assets/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/font.css" rel="stylesheet" type="text/css">
+  <link href="./assets/style.css" rel="stylesheet" type="text/css">
+</head>
+<!-- === Header Ends === -->
+
+
+<body>
+
+
+  <!-- === Home Section Starts === -->
+  <div class="section">
+    <!-- === Title Starts === -->
+    <div class="header">
+      <!-- <div class="logo">
+        <a href="https://genforce.github.io/" target="_blank"><img src="./assets/genforce.png"></a>
+      </div> -->
+      <div class="title" , style="padding-top: 25pt;">
+        <!-- Set padding as 10 if title is with two lines. -->
+        Adversarial Inverse Reinforcement Learning with Self-attention
+        Dynamics Model
+      </div>
+    </div>
+    <!-- === Title Ends === -->
+    <div class="author">
+      <a href="https://scholar.google.com.hk/citations?user=726MCb8AAAAJ&hl=en" target="_blank">Jiankai Sun,</a>&nbsp;
+      <a href="https://scholar.google.com/citations?user=Ixg9n-EAAAAJ&hl=en" target="_blank">Lantao Yu,</a>&nbsp;
+      <a href="" target="_blank">Pinqian Dong,</a>
+      <a href="https://scholar.google.com/citations?user=ENPRTpcAAAAJ&hl=en" target="_blank">Bo Lu,</a>
+      <a href="http://bzhou.ie.cuhk.edu.hk/" target="_blank">Bolei Zhou</a>
+    </div>
+    <div class="institution">
+      The Chinese Univsersity of Hong Kong, Stanford Univsersity, Huazhong University of Science and Technology
+    </div>
+    <!-- <div class="link"> -->
+    <!-- <a href="https://arxiv.org/abs/1912.00191" target="_blank">[Paper]</a>&nbsp; -->
+    <!-- <a href="https://github.com/decisionforce/Modular-Decision" target="_blank">[Code]</a> -->
+    <!-- </div> -->
+    <!-- <div class="teaser">
+      <img src="./assets/mairl_teaser.png">
+    </div> -->
+  </div>
+  <!-- === Home Section Ends === -->
+
+
+  <!-- === Overview Section Starts === -->
+  <div class="section">
+    <div class="title">Overview</div>
+    <div class="body">
+      In many real-world applications where specifying a proper reward function is difficult, it is desirable to learn
+      policies from expert demonstrations. Adversarial Inverse Reinforcement Learning (AIRL) is one of the most common
+      approaches for learning from demonstrations. However, due to the stochastic policy, current computation graph of
+      AIRL is
+      no longer end-to-end differentiable like Generative Adversarial Networks (GANs),
+      resulting in the need for high-variance gradient estimation methods and large sample size.
+      In this work, we propose the Model-based Adversarial Inverse Reinforcement Learning (MAIRL), an end-to-end
+      model-based
+      policy optimization method with self-attention. Considering the problem of learning robust reward and policy from
+      expert
+      demonstrations under learned environment dynamics. MAIRL has the advantage of the low variance for policy
+      updating, thus
+      addressing the key issue of AIRL. We evaluate our approach thoroughly on various control tasks as well as the
+      challenging transfer learning problems where training and test environments are made to be different.
+      The results show that our approach not only learns near-optimal rewards and policies that match expert behavior
+      but also
+      outperforms previous inverse reinforcement learning algorithms in real robot experiments.
+    </div>
+  </div>
+  <!-- === Overview Section Ends === -->
+
+
+  <!-- === Result Section Starts === -->
+  <div class="section">
+    <div class="title">Framework</div>
+    <div class="body">
+      <div class="teaser">
+        <img src="./assets/MAIRL_framework.png">
+      </div>
+      <!-- Image or GIF results here. The highlight of the work. -->
+
+      <!-- Adjust the number of rows and columns (EVERY project differs). -->
+      <!-- <table width="100%" style="margin: 20pt 0; text-align: center;">
+        <tr>
+          <td><img src="https://via.placeholder.com/300x100" width="90%"></td>
+        </tr>
+      </table> -->
+
+      <!-- Demo video here. -->
+
+      <!-- Adjust the frame size based on the demo (EVERY project differs). -->
+      <!-- <div style="position: relative; margin: 20pt 0; text-align: center;">
+        <iframe width="90%" height="500" src="https://www.youtube.com/embed/aaUAC5Iy6VY" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div> -->
+    </div>
+  </div>
+  <!-- === Result Section Ends === -->
+
+
+  <!-- === Reference Section Starts === -->
+  <div class="section">
+    <div class="bibtex">BibTeX</div>
+    <pre>
+@InProceedings{Sun_2021_RAL,
+author={Sun, Jiankai and Yu, Lantao and Dong, Pinqian and Lu, Bo and Zhou, Bolei}
+title={Adversarial Inverse Reinforcement Learning with Self-attention Dynamics Model},
+booktitle = {IEEE Robotics and Automation Letters (RA-L)}
+}
+</pre>
+
+    <!-- BZ: we should give other related work enough credits, -->
+    <!--     so please include some most relevant work and leave some comment to summarize work and the difference. -->
+    <div class="ref">Related Work</div>
+    <div class="citation">
+      <div class="image"><img src="./assets/mgail_teaser.png"></div>
+      <div class="comment">
+        <a href="https://link.springer.com/book/10.1007/978-3-642-03991-1" target="_blank">
+          Nir Baram, Oron Anschel, Itai Caspi, Shie Mannor.
+          End-to-End Differentiable Adversarial Imitation Learning.
+          ICML</a><br>
+        <!-- <b>Comment:</b> -->
+        <!-- This is a long comment. This comment is just used to test how long comments can fit the template. -->
+      </div>
+    </div>
+    <div class="citation">
+      <div class="image"><img src="./assets/airl_teaser.png"></div>
+      <div class="comment">
+        <a href="https://arxiv.org/abs/1912.00191" target="_blank">
+          Justin Fu, Katie Luo, Sergey Levine.
+          Learning Robust Rewards with Adversarial Inverse Reinforcement Learning.
+          International Conference on Learning Representations (ICLR).</a><br>
+        <!-- <b>Comment:</b> -->
+        <!-- This is a long comment. This comment is just used to test how long comments can fit the template. -->
+      </div>
+    </div>
+    <!-- <div class="citation">
+      <div class="image"><img src="./assets/nsps_corl_2020.png"></div>
+      <div class="comment">
+        <a href="https://decisionforce.github.io/driving-decision/" target="_blank">
+          Jiankai Sun, Hao Sun, Tian Han, Bolei Zhou.
+          Neuro-Symbolic Program Search: TowardsAutomatic Autonomous Driving System Design.
+          Proceedings of the Conference on Robot Learning & 2020.</a><br>
+        <!-- <b>Comment:</b> -->
+    <!-- This is a short comment. -->
+  </div>
+  </div> -->
+  </div>
+  <!-- === Reference Section Ends === -->
+
+
+</body>
+
+</html>
