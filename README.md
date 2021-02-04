@@ -59,7 +59,7 @@ Our code is based on [itaicaspi/mgail](https://github.com/itaicaspi/mgail), [Hum
 <br />
 **In IEEE Robotics and Automation Letters (RA-L) 2021**
 <br />
-[[Paper]]()
+[[Paper]](http://bzhou.ie.cuhk.edu.hk/robotics/MAIRL_draft.pdf)
 [[Project Page]](https://decisionforce.github.io/MAIRL/)
 
 ```
