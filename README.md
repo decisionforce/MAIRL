@@ -49,7 +49,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py --env_name Ant-v2 --train_mode False
 Our code is based on [itaicaspi/mgail](https://github.com/itaicaspi/mgail), [HumanCompatibleAI/imitation](https://github.com/HumanCompatibleAI/imitation), [huggingface/transformers](https://github.com/huggingface/transformers).
 
 # Reference
-**[Adversarial Inverse Reinforcement Learning with Self-attention Dynamics Model]()**
+**[Adversarial Inverse Reinforcement Learning with Self-attention Dynamics Model](http://bzhou.ie.cuhk.edu.hk/robotics/MAIRL_draft.pdf)**
 <br />
 [Jiankai Sun](https://scholar.google.com.hk/citations?user=726MCb8AAAAJ&hl=en),
 [Lantao Yu](https://scholar.google.com/citations?user=Ixg9n-EAAAAJ&hl=en), 
