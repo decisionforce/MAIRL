@@ -29,6 +29,8 @@
 ## How to Run
 1. Collect demonstration data and save to `expert_data` directory.
 
+The expert data should be a python pickle file (with `.bin` but not `.pkl` as a suffix) It has `batch_size`, `action`, `states` (required by [set_er_stats()](https://github.com/decisionforce/MAIRL/blob/main/common.py#L19)), like the [`expert_data/hopper_er.bin`](https://github.com/decisionforce/MAIRL/blob/main/expert_data/hopper_er.bin) (just as an example).
+
 2. Training
 
 ```bash
