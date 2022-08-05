@@ -53,7 +53,7 @@ Our code is based on [itaicaspi/mgail](https://github.com/itaicaspi/mgail), [Hum
 # Reference
 **[Adversarial Inverse Reinforcement Learning with Self-attention Dynamics Model](http://bzhou.ie.cuhk.edu.hk/robotics/MAIRL_draft.pdf)**
 <br />
-[Jiankai Sun](https://scholar.google.com.hk/citations?user=726MCb8AAAAJ&hl=en),
+[Jiankai Sun](https://scholar.google.com/citations?user=726MCb8AAAAJ&hl=en),
 [Lantao Yu](https://scholar.google.com/citations?user=Ixg9n-EAAAAJ&hl=en), 
 [Pinqian Dong](),
 [Bo Lu](https://scholar.google.com/citations?user=ENPRTpcAAAAJ&hl=en), and
